@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 700" fill="none" stroke="#E8B923">
+  <!-- Gear besar: cincin bergerigi dibuat dengan stroke-dasharray -->
+  <g opacity=".20">
+    <circle cx="640" cy="330" r="250" stroke-width="34" stroke-dasharray="19.6 19.6"/>
+    <circle cx="640" cy="330" r="226" stroke-width="3"/>
+    <circle cx="640" cy="330" r="170" stroke-width="2"/>
+    <circle cx="640" cy="330" r="60" stroke-width="3"/>
+    <circle cx="640" cy="330" r="20" stroke-width="3"/>
+    <path d="M640 160v-40M640 500v40M470 330h-40M810 330h40M520 210l-28-28M760 450l28 28M520 450l-28 28M760 210l28-28" stroke-width="3"/>
+  </g>
+  <!-- Gear kecil -->
+  <g opacity=".14">
+    <circle cx="205" cy="610" r="130" stroke-width="26" stroke-dasharray="20.4 20.4"/>
+    <circle cx="205" cy="610" r="110" stroke-width="2"/>
+    <circle cx="205" cy="610" r="40" stroke-width="3"/>
+  </g>
+</svg>

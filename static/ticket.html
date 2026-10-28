@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>E-Ticket Peserta — MEB Career Bootcamp 2026</title>
+  <meta name="description" content="E-ticket peserta Mechanical Engineering Career Bootcamp 2026 dengan QR Code absensi.">
+  <meta name="robots" content="noindex">
+  <meta name="theme-color" content="#7F1D1D">
+  <link rel="icon" href="/img/logo-pnup.png" type="image/png">
+  <link rel="stylesheet" href="/css/tokens.css">
+  <link rel="stylesheet" href="/css/base.css">
+  <link rel="stylesheet" href="/css/site.css">
+</head>
+<body>
+  <main class="ticket-page">
+    <div class="ticket-top">
+      <a href="/" id="back-home"><i data-icon="arrow" style="transform:rotate(180deg);display:inline-flex"></i> Kembali ke beranda</a>
+      <span class="xs" style="opacity:.8">E-Ticket Peserta</span>
+    </div>
+
+    <div class="ticket-wrap" id="ticket-root" aria-live="polite">
+      <div class="eticket"><div style="padding:60px 24px;text-align:center"><div class="skeleton" style="height:24px;width:60%;margin:0 auto 16px"></div><div class="skeleton" style="height:240px;width:240px;margin:0 auto"></div></div></div>
+    </div>
+  </main>
+
+  <script src="/vendor/qrcode.js"></script>
+  <script src="/js/common.js"></script>
+  <script src="/js/ticket.js"></script>
+</body>
+</html>

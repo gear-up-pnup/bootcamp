@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mechanical Engineering Career Bootcamp 2026 — Pendaftaran | Teknik Mesin PNUP</title>
+  <meta name="description" content="Pendaftaran Mechanical Engineering Career Bootcamp 2026: pembekalan karier dan kesiapan dunia kerja untuk alumni baru dan calon alumni Jurusan Teknik Mesin Politeknik Negeri Ujung Pandang.">
+  <meta name="theme-color" content="#7F1D1D">
+  <meta property="og:title" content="Mechanical Engineering Career Bootcamp 2026">
+  <meta property="og:description" content="Pembekalan Karier & Kesiapan Dunia Kerja untuk Alumni Baru dan Calon Alumni Jurusan Teknik Mesin Tahun 2026.">
+  <link rel="icon" href="/img/logo-pnup.png" type="image/png">
+  <link rel="stylesheet" href="/css/tokens.css">
+  <link rel="stylesheet" href="/css/base.css">
+  <link rel="stylesheet" href="/css/site.css">
+</head>
+<body>
+  <a href="#daftar" class="sr-only">Lompat ke formulir pendaftaran</a>
+
+  <header class="nav" id="nav">
+    <div class="wrap nav-in">
+      <a href="/" class="brand" aria-label="Beranda MEB Career Bootcamp 2026">
+        <span class="brand-logo"><img src="/img/logo-pnup.png" alt="Logo Politeknik Negeri Ujung Pandang" width="40" height="40"></span>
+        <span class="brand-text"><strong>MEB Career Bootcamp</strong><small>Teknik Mesin PNUP · 2026</small></span>
+      </a>
+      <nav class="nav-links" id="nav-links" aria-label="Navigasi utama">
+        <a href="#tentang">Tentang</a>
+        <a href="#topik">Fokus Materi</a>
+        <a href="#alur">Alur</a>
+        <a href="#tiket">Cek Tiket</a>
+        <a href="#faq">FAQ</a>
+        <a href="#daftar" class="btn btn-gold btn-sm">Daftar Sekarang</a>
+      </nav>
+      <button class="nav-toggle" id="nav-toggle" aria-label="Buka menu" aria-expanded="false" aria-controls="nav-links"><i data-icon="menu"></i></button>
+    </div>
+  </header>
+
+  <main>
+    <!-- ================= HERO ================= -->
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-bg" aria-hidden="true"></div>
+      <div class="wrap hero-grid">
+        <div class="hero-copy">
+          <span class="eyebrow"><i data-icon="award"></i> Pembekalan Karier Angkatan 2026</span>
+          <h1 id="hero-title">Mechanical Engineering <em>Career Bootcamp</em></h1>
+          <p class="lead" id="hero-subtitle">Pembekalan Karier &amp; Kesiapan Dunia Kerja untuk Alumni Baru dan Calon Alumni Jurusan Teknik Mesin Tahun 2026</p>
+          <p class="organizer"><i data-icon="shield"></i> <span id="hero-organizer">Jurusan Teknik Mesin, Politeknik Negeri Ujung Pandang</span></p>
+          <div class="hero-cta">
+            <a href="#daftar" class="btn btn-gold btn-lg" id="cta-register">Daftar Sekarang <i data-icon="arrow"></i></a>
+            <a href="#tiket" class="btn btn-lg btn-outline-light" id="cta-ticket"><i data-icon="qr"></i> Cek Tiket Saya</a>
+          </div>
+          <div class="countdown" id="countdown" hidden aria-live="off">
+            <div><b id="cd-d">00</b><span>Hari</span></div>
+            <div><b id="cd-h">00</b><span>Jam</span></div>
+            <div><b id="cd-m">00</b><span>Menit</span></div>
+            <div><b id="cd-s">00</b><span>Detik</span></div>
+          </div>
+        </div>
+
+        <div class="hero-pass" aria-hidden="true">
+          <div class="pass">
+            <div class="pass-head">
+              <img src="/img/logo-pnup.png" alt="" width="44" height="44">
+              <div><strong>E-Ticket Peserta</strong><small>MEB Career Bootcamp 2026</small></div>
+            </div>
+            <div class="pass-qr"><canvas id="demo-qr" width="180" height="180"></canvas></div>
+            <div class="pass-meta"><span>Contoh tampilan</span><b class="mono">MEB26-0000</b></div>
+            <div class="pass-foot"><i data-icon="qr"></i> Tunjukkan QR ini saat registrasi ulang</div>
+            <span class="notch l"></span><span class="notch r"></span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= META STRIP ================= -->
+    <section class="wrap meta-strip" aria-label="Informasi pelaksanaan">
+      <div class="meta-card"><span class="meta-ic"><i data-icon="calendar"></i></span><div><small>Tanggal</small><b id="m-date">—</b></div></div>
+      <div class="meta-card"><span class="meta-ic"><i data-icon="clock"></i></span><div><small>Waktu</small><b id="m-time">—</b></div></div>
+      <div class="meta-card"><span class="meta-ic"><i data-icon="pin"></i></span><div><small>Lokasi</small><b id="m-venue">—</b></div></div>
+      <div class="meta-card meta-quota">
+        <span class="meta-ic"><i data-icon="users"></i></span>
+        <div style="flex:1;min-width:0"><small>Kuota Peserta</small><b id="m-quota">—</b>
+          <div class="progress" id="m-progress" hidden><i style="width:0"></i></div></div>
+      </div>
+    </section>
+
+    <!-- ================= TENTANG ================= -->
+    <section class="section" id="tentang" aria-labelledby="tentang-title">
+      <div class="wrap two-col">
+        <div>
+          <p class="kicker">Tentang Kegiatan</p>
+          <h2 id="tentang-title">Menjembatani dunia kampus menuju dunia industri</h2>
+          <p class="muted">Mechanical Engineering Career Bootcamp merupakan kegiatan pembekalan karier bagi lulusan dan calon lulusan Jurusan Teknik Mesin Politeknik Negeri Ujung Pandang tahun 2026. Kegiatan ini membantu peserta menyiapkan diri secara profesional sebelum dan sesudah memasuki dunia kerja.</p>
+          <ul class="ticks">
+            <li><i data-icon="checkCircle"></i> <span>Terbuka untuk <strong>alumni baru</strong> dan <strong>calon alumni</strong> Jurusan Teknik Mesin</span></li>
+            <li><i data-icon="checkCircle"></i> <span>Pendaftaran daring dengan <strong>e-ticket QR Code</strong></span></li>
+            <li><i data-icon="checkCircle"></i> <span>Absensi cepat dan akurat melalui pemindaian QR</span></li>
+          </ul>
+        </div>
+        <div class="stat-grid">
+          <div class="stat"><b id="s-registered">0</b><span>Peserta terdaftar</span></div>
+          <div class="stat"><b>2026</b><span>Angkatan lulusan</span></div>
+          <div class="stat"><b>QR</b><span>Absensi digital</span></div>
+          <div class="stat"><b>6</b><span>Fokus materi pembekalan</span></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= TOPIK ================= -->
+    <section class="section section-alt" id="topik" aria-labelledby="topik-title">
+      <div class="wrap">
+        <div class="section-head center">
+          <p class="kicker">Fokus Pembekalan</p>
+          <h2 id="topik-title">Kesiapan karier untuk insinyur muda</h2>
+          <p class="muted">Rangkaian materi yang dirancang untuk menjawab kebutuhan transisi dari bangku kuliah ke dunia kerja.</p>
+        </div>
+        <div class="topic-grid">
+          <article class="topic"><span class="topic-ic"><i data-icon="file"></i></span><h4>CV &amp; Surat Lamaran</h4><p>Menyusun dokumen lamaran yang relevan dengan kompetensi teknik mesin dan kebutuhan industri.</p></article>
+          <article class="topic"><span class="topic-ic"><i data-icon="mic"></i></span><h4>Seleksi &amp; Wawancara Kerja</h4><p>Memahami tahapan rekrutmen dan strategi menghadapi wawancara serta asesmen.</p></article>
+          <article class="topic"><span class="topic-ic"><i data-icon="users"></i></span><h4>Soft Skill &amp; Etika Profesional</h4><p>Komunikasi, kerja tim, dan etos kerja yang dibutuhkan di lingkungan profesional.</p></article>
+          <article class="topic"><span class="topic-ic"><i data-icon="wrench"></i></span><h4>Wawasan Industri</h4><p>Gambaran dunia kerja di sektor manufaktur, energi, otomotif, serta perawatan dan konstruksi.</p></article>
+          <article class="topic"><span class="topic-ic"><i data-icon="shield"></i></span><h4>Budaya K3 di Tempat Kerja</h4><p>Pentingnya keselamatan dan kesehatan kerja sebagai standar profesi teknik.</p></article>
+          <article class="topic"><span class="topic-ic"><i data-icon="trend"></i></span><h4>Jalur Karier</h4><p>Pilihan setelah lulus: bekerja di industri, berwirausaha, atau melanjutkan studi.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= ALUR ================= -->
+    <section class="section" id="alur" aria-labelledby="alur-title">
+      <div class="wrap">
+        <div class="section-head center">
+          <p class="kicker">Alur Peserta</p>
+          <h2 id="alur-title">Tiga langkah menuju hari pelaksanaan</h2>
+        </div>
+        <ol class="steps">
+          <li><span class="step-n">1</span><h4>Isi Formulir</h4><p>Lengkapi data diri pada formulir pendaftaran di bawah.</p></li>
+          <li><span class="step-n">2</span><h4>Simpan E-Ticket</h4><p>Anda akan menerima tiket dengan QR Code unik. Unduh atau simpan tautannya.</p></li>
+          <li><span class="step-n">3</span><h4>Pindai Saat Hadir</h4><p>Tunjukkan QR Code kepada panitia pada saat registrasi ulang untuk absensi.</p></li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ================= DAFTAR ================= -->
+    <section class="section section-reg" id="daftar" aria-labelledby="daftar-title">
+      <div class="wrap reg-grid">
+        <aside class="reg-aside">
+          <p class="kicker light">Pendaftaran Peserta</p>
+          <h2 id="daftar-title">Formulir Pendaftaran</h2>
+          <p>Pendaftaran terbuka bagi alumni baru dan calon alumni Jurusan Teknik Mesin Politeknik Negeri Ujung Pandang tahun 2026.</p>
+          <ul class="aside-list">
+            <li><i data-icon="check"></i> Gunakan NIM dan email aktif; keduanya dipakai untuk memulihkan tiket.</li>
+            <li><i data-icon="check"></i> Satu NIM dan satu email hanya dapat mendaftar satu kali.</li>
+            <li><i data-icon="check"></i> Tiket QR dibuat otomatis setelah pendaftaran berhasil.</li>
+          </ul>
+          <div class="reg-contact" id="reg-contact" hidden><i data-icon="phone"></i> <span>Bantuan: <b id="contact-text"></b></span></div>
+        </aside>
+
+        <div class="card reg-card">
+          <div id="reg-closed" class="alert alert-warn" hidden role="status"><i data-icon="alert"></i><div><b id="closed-title">Pendaftaran ditutup</b><br><span id="closed-text"></span></div></div>
+
+          <form id="register-form" novalidate autocomplete="on">
+            <div class="form-grid">
+              <div class="field span-2" data-field="full_name">
+                <label for="f-name">Nama Lengkap <span class="req">*</span></label>
+                <input class="input" id="f-name" name="full_name" type="text" autocomplete="name" maxlength="100" placeholder="Sesuai data akademik">
+                <span class="err-msg" role="alert"></span>
+              </div>
+              <div class="field" data-field="nim">
+                <label for="f-nim">NIM <span class="req">*</span></label>
+                <input class="input mono-in" id="f-nim" name="nim" type="text" inputmode="numeric" maxlength="20" placeholder="Nomor Induk Mahasiswa">
+                <span class="err-msg" role="alert"></span>
+              </div>
+              <div class="field" data-field="program_studi">
+                <label for="f-prodi">Program Studi <span class="req">*</span></label>
+                <input class="input" id="f-prodi" name="program_studi" type="text" maxlength="80" placeholder="Contoh: D3 Teknik Mesin">
+                <span class="err-msg" role="alert"></span>
+              </div>
+              <div class="field" data-field="email">
+                <label for="f-email">Email <span class="req">*</span></label>
+                <input class="input" id="f-email" name="email" type="email" autocomplete="email" maxlength="120" placeholder="nama@email.com">
+                <span class="err-msg" role="alert"></span>
+              </div>
+              <div class="field" data-field="phone">
+                <label for="f-phone">Nomor WhatsApp <span class="req">*</span></label>
+                <input class="input" id="f-phone" name="phone" type="tel" autocomplete="tel" maxlength="25" placeholder="0812 3456 7890">
+                <span class="err-msg" role="alert"></span>
+              </div>
+
+              <fieldset class="field span-2 choice-set" data-field="status">
+                <legend class="label">Status Anda <span class="req">*</span></legend>
+                <div class="choice-row">
+                  <label class="choice"><input type="radio" name="status" value="calon_alumni"><span><b>Calon Alumni</b><small>Mahasiswa tingkat akhir</small></span></label>
+                  <label class="choice"><input type="radio" name="status" value="alumni_baru"><span><b>Alumni Baru</b><small>Telah dinyatakan lulus</small></span></label>
+                </div>
+                <span class="err-msg" role="alert"></span>
+              </fieldset>
+
+              <div class="field" data-field="grad_year">
+                <label for="f-year">Tahun Lulus / Perkiraan Lulus <span class="req">*</span></label>
+                <select class="select" id="f-year" name="grad_year">
+                  <option value="2025">2025</option><option value="2026" selected>2026</option><option value="2027">2027</option>
+                </select>
+                <span class="err-msg" role="alert"></span>
+              </div>
+              <div class="field" data-field="interest">
+                <label for="f-interest">Bidang Karier Diminati <span class="req">*</span></label>
+                <select class="select" id="f-interest" name="interest"><option value="">Pilih bidang…</option></select>
+                <span class="err-msg" role="alert"></span>
+              </div>
+              <div class="field span-2" data-field="note">
+                <label for="f-note">Harapan atau Pertanyaan <span class="muted" style="font-weight:400">(opsional)</span></label>
+                <textarea class="textarea" id="f-note" name="note" maxlength="300" rows="3" placeholder="Topik yang ingin Anda dalami pada kegiatan ini"></textarea>
+                <span class="err-msg" role="alert"></span>
+              </div>
+
+              <input type="text" name="website" class="hp" tabindex="-1" autocomplete="off" aria-hidden="true">
+
+              <div class="field span-2" data-field="consent">
+                <label class="check" for="f-consent">
+                  <input type="checkbox" id="f-consent" name="consent">
+                  <span>Saya menyatakan data yang diisikan benar dan menyetujui data tersebut digunakan oleh panitia untuk keperluan pendaftaran, absensi, dan komunikasi kegiatan.</span>
+                </label>
+                <span class="err-msg" role="alert"></span>
+              </div>
+            </div>
+            <div id="form-alert" class="alert alert-error" hidden role="alert" style="margin-top:16px"><i data-icon="alert"></i><span></span></div>
+            <button type="submit" class="btn btn-primary btn-lg btn-block" id="btn-submit" style="margin-top:20px">Daftar &amp; Dapatkan E-Ticket</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= CEK TIKET ================= -->
+    <section class="section" id="tiket" aria-labelledby="tiket-title">
+      <div class="wrap lookup">
+        <div>
+          <p class="kicker">Sudah mendaftar?</p>
+          <h2 id="tiket-title">Cek &amp; unduh ulang tiket Anda</h2>
+          <p class="muted">Masukkan NIM dan email yang digunakan saat mendaftar untuk menampilkan kembali e-ticket beserta QR Code absensi.</p>
+        </div>
+        <form class="card lookup-card" id="lookup-form" novalidate>
+          <div class="field"><label for="l-nim">NIM</label><input class="input" id="l-nim" name="nim" type="text" autocomplete="off"></div>
+          <div class="field"><label for="l-email">Email</label><input class="input" id="l-email" name="email" type="email" autocomplete="email"></div>
+          <div id="lookup-alert" class="alert alert-error" hidden role="alert"><i data-icon="alert"></i><span></span></div>
+          <button class="btn btn-secondary btn-block" type="submit" id="btn-lookup"><i data-icon="search"></i> Tampilkan Tiket</button>
+        </form>
+      </div>
+    </section>
+
+    <!-- ================= FAQ ================= -->
+    <section class="section section-alt" id="faq" aria-labelledby="faq-title">
+      <div class="wrap faq-wrap">
+        <div class="section-head center"><p class="kicker">Pertanyaan Umum</p><h2 id="faq-title">Informasi bagi peserta</h2></div>
+        <details><summary>Siapa yang dapat mendaftar?</summary><p>Alumni baru dan calon alumni Jurusan Teknik Mesin Politeknik Negeri Ujung Pandang tahun 2026.</p></details>
+        <details><summary>Bagaimana mekanisme absensi?</summary><p>Setiap peserta memiliki e-ticket dengan QR Code unik. Pada hari pelaksanaan, panitia memindai QR Code tersebut untuk mencatat kehadiran. Simpan tiket pada ponsel atau cetak sebagai cadangan.</p></details>
+        <details><summary>Tiket saya hilang, apa yang harus dilakukan?</summary><p>Gunakan fitur “Cek Tiket” pada halaman ini dengan memasukkan NIM dan email pendaftaran. Tiket yang sama akan ditampilkan kembali.</p></details>
+        <details><summary>Bagaimana data saya dikelola?</summary><p>Data peserta disimpan pada sistem panitia dan hanya dapat diakses oleh admin yang berwenang, serta digunakan semata-mata untuk keperluan penyelenggaraan kegiatan.</p></details>
+        <details><summary>Saya salah mengisi data, bagaimana memperbaikinya?</summary><p>Hubungi panitia melalui kontak yang tertera. Admin dapat memperbarui data pendaftaran Anda.</p></details>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="wrap foot-in">
+      <div class="foot-brand">
+        <span class="brand-logo"><img src="/img/logo-pnup.png" alt="" width="44" height="44"></span>
+        <div><strong>Jurusan Teknik Mesin</strong><br><span>Politeknik Negeri Ujung Pandang</span></div>
+      </div>
+      <p class="foot-copy">© 2026 Mechanical Engineering Career Bootcamp. <a href="/admin">Masuk Panitia</a></p>
+    </div>
+  </footer>
+
+  <script src="/vendor/qrcode.js"></script>
+  <script src="/js/common.js"></script>
+  <script src="/js/site.js"></script>
+</body>
+</html>

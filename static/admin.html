@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Panel Panitia — MEB Career Bootcamp 2026</title>
+  <meta name="description" content="Panel admin MEB Career Bootcamp 2026: kelola data peserta dan absensi QR Code.">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="theme-color" content="#7F1D1D">
+  <link rel="icon" href="/img/logo-pnup.png" type="image/png">
+  <link rel="stylesheet" href="/css/tokens.css">
+  <link rel="stylesheet" href="/css/base.css">
+  <link rel="stylesheet" href="/css/admin.css">
+</head>
+<body>
+  <!-- ============ LOGIN ============ -->
+  <main class="login" id="login-view" hidden>
+    <section class="login-hero" aria-hidden="true">
+      <div class="login-hero-in">
+        <span class="brand-logo big"><img src="/img/logo-pnup.png" alt="" width="84" height="84"></span>
+        <h2>Mechanical Engineering<br>Career Bootcamp 2026</h2>
+        <p>Panel pengelolaan peserta dan absensi QR Code.<br>Jurusan Teknik Mesin · Politeknik Negeri Ujung Pandang</p>
+      </div>
+    </section>
+    <section class="login-form-wrap">
+      <form class="login-form" id="login-form" novalidate>
+        <h1>Masuk Panitia</h1>
+        <p class="muted">Gunakan akun admin atau petugas yang diberikan.</p>
+        <div class="field"><label for="lg-user">Username</label><input class="input" id="lg-user" name="username" autocomplete="username" required></div>
+        <div class="field"><label for="lg-pass">Kata Sandi</label><input class="input" id="lg-pass" name="password" type="password" autocomplete="current-password" required></div>
+        <div class="alert alert-error" id="login-alert" hidden role="alert"><i data-icon="alert"></i><span></span></div>
+        <button class="btn btn-primary btn-lg btn-block" id="btn-login" type="submit">Masuk</button>
+        <a class="back-link" href="/">← Kembali ke situs pendaftaran</a>
+      </form>
+    </section>
+  </main>
+
+  <!-- ============ APP ============ -->
+  <div class="app" id="app-view" hidden>
+    <header class="topbar">
+      <button class="icon-btn menu-btn" id="btn-menu" aria-label="Buka menu"><i data-icon="menu"></i></button>
+      <a class="topbar-brand" href="#/dashboard">
+        <span class="brand-logo"><img src="/img/logo-pnup.png" alt="" width="36" height="36"></span>
+        <span><strong>MEB Career Bootcamp</strong><small>Panel Panitia · 2026</small></span>
+      </a>
+      <div class="topbar-right">
+        <span class="user-chip"><i data-icon="user"></i> <b id="me-name">—</b> <em id="me-role" class="chip chip-gold no-dot">admin</em></span>
+        <button class="btn btn-sm btn-outline-light" id="btn-logout"><i data-icon="logout"></i> <span class="hide-sm">Keluar</span></button>
+      </div>
+    </header>
+
+    <aside class="sidebar" id="sidebar" aria-label="Menu panel">
+      <nav>
+        <div class="nav-group">
+          <p class="nav-label">Ringkasan</p>
+          <a href="#/dashboard" data-route="dashboard"><i data-icon="grid"></i> Dashboard</a>
+        </div>
+        <div class="nav-group">
+          <p class="nav-label">Kegiatan</p>
+          <a href="#/peserta" data-route="peserta"><i data-icon="users"></i> Data Peserta</a>
+          <a href="#/absensi" data-route="absensi"><i data-icon="qr"></i> Absensi QR</a>
+        </div>
+        <div class="nav-group" data-admin-only>
+          <p class="nav-label">Sistem</p>
+          <a href="#/pengaturan" data-route="pengaturan"><i data-icon="settings"></i> Pengaturan</a>
+        </div>
+      </nav>
+      <div class="side-foot">
+        <a href="/" target="_blank" rel="noopener"><i data-icon="arrow"></i> Lihat situs publik</a>
+      </div>
+    </aside>
+    <div class="side-scrim" id="side-scrim"></div>
+
+    <main class="content" id="view" tabindex="-1"></main>
+  </div>
+
+  <script src="/vendor/qrcode.js"></script>
+  <script src="/vendor/jsQR.js"></script>
+  <script src="/js/common.js"></script>
+  <script src="/js/admin.js"></script>
+</body>
+</html>
